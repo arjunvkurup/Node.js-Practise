@@ -1,0 +1,18 @@
+<!--Importing Header from partials-->
+<% include partials/header %>
+
+    <h1 align="center"> The post page</h1>
+
+    <!--Example for for loop-->
+    <% for(var i = 0; i < posts.length; i++){ %>
+    <li><%= posts[i].title %> - <strong><%= posts[i].author%></strong></li>
+    <% } %>
+
+    <!-- Example for For each function-->
+    <% posts.forEach(function(post){ %>
+    <li><%= post.title %> - <strong><%= post.author%></strong></li>
+    <% }) %>
+
+<!--Importing Footer from partials-->
+<% include partials/footer%>
+

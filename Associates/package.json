@@ -1,0 +1,14 @@
+{
+  "name": "associates",
+  "version": "1.0.0",
+  "description": "Association reference and something else...",
+  "main": "embed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun V",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.12.3"
+  }
+}

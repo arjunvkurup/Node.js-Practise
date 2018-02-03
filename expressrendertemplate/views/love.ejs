@@ -1,0 +1,13 @@
+<!--Importing Header from partials-->
+<% include partials/header %>
+
+<h1> The love is : <%= thingVar%> </h1>
+
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+    <p>Good choice Rusty!!</p>
+    <% } %>
+	
+<h2> Made With Love </h2>
+
+<!--Importing Footer from partials-->
+<% include partials/footer%>
